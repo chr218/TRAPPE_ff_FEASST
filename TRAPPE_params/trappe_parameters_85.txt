@@ -1,0 +1,19 @@
+"ethylmethyl sulfide"
+
+#,(pseudo)atom,type,"epsilon/kB [K]","sigma [Ang.]","charge [e]"
+1,S,CHx-[S]-CHx,199.0,3.580,-0.300
+2,CH2,CHx-[CH2]-S-CHx,46.0,3.950,0.150
+3,CH3,[CH3]-CHx,98,3.75,0.0
+4,CH3,[CH3]-S-CHx,98.0,3.750,0.150
+
+#,stretch,type,"length [Ang.]"
+1,"'1 - 2'",CHx-S,1.8200
+2,"'1 - 4'",CHx-S,1.8200
+3,"'2 - 3'",CHx-CHy,1.54
+
+#,bend,type,"theta [degrees]","k_theta/kB [K/rad^2]"
+1,"'1 - 2 - 3'",CHx-(CHy)-S,114.00,62500
+2,"'2 - 1 - 4'",CHx-(S)-CHy,99.00,45550
+
+#,torsion,type,"c0/kB [K]","c1/kB [K]","c2/kB [K]","c3/kB [K]"
+1,"'3 - 2 - 1 - 4'",CHx-(CH2)-(S)-CHy,0.00,367.60,-270.18,581.64

@@ -1,0 +1,13 @@
+propene
+
+#,(pseudo)atom,type,"epsilon/kB [K]","sigma [Ang.]","charge [e]"
+1,CH3,[CH3]-CHx,98,3.75,0.0
+2,CH,CHx=[CH](sp2)-CHy(sp3),47.0,3.73,0.0
+3,CH2,[CH2]=CHx,85.0,3.675,0.0
+
+#,stretch,type,"length [Ang.]"
+1,"'1 - 2'",CHx-CHy,1.54
+2,"'2 - 3'",CHx=CHy,1.33
+
+#,bend,type,"theta [degrees]","k_theta/kB [K/rad^2]"
+1,"'1 - 2 - 3'",CHx=(CH)-CHx,119.70,70420

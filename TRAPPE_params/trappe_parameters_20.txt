@@ -1,0 +1,23 @@
+propan-1-ol
+
+#,(pseudo)atom,type,"epsilon/kB [K]","sigma [Ang.]","charge [e]"
+1,CH3,[CH3]-CHx,98,3.75,0.0
+2,CH2,CHx-[CH2]-CHx,46,3.95,0.0
+3,CH2,CHx-[CH2]-O-H,46,3.95,0.265
+4,O,CHx-[O]-H,93,3.02,-0.700
+5,H,O-[H],0.0,0.0,0.435
+
+#,stretch,type,"length [Ang.]"
+1,"'1 - 2'",CHx-CHy,1.54
+2,"'2 - 3'",CHx-CHy,1.54
+3,"'3 - 4'",CHx-OH,1.43
+4,"'4 - 5'",O-H,0.945
+
+#,bend,type,"theta [degrees]","k_theta/kB [K/rad^2]"
+1,"'1 - 2 - 3'",CHx-(CH2)-CHy,114,62500
+2,"'2 - 3 - 4'",CHx-(CHy)-OH,109.47,50400
+3,"'3 - 4 - 5'",CHx-(O)-H,108.50,55400
+
+#,torsion,type,"c0/kB [K]","c1/kB [K]","c2/kB [K]","c3/kB [K]"
+1,"'1 - 2 - 3 - 4'",CHx-(CH2)-(CH2)-O,0.00,176.62,-53.34,769.93
+2,"'2 - 3 - 4 - 5'",CHx-(CH2)-(O)-H,0.00,209.82,-29.17,187.93

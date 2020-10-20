@@ -1,0 +1,42 @@
+# FEASST data file 
+# acetaldehyde 
+# trappe_parameters_39.txt 
+# CC=O 
+
+3 atoms 
+2 bonds 
+
+3 atom types 
+2 bond types 
+
+0.0 2.4017 xlo xhi 
+-0.6041 0.0597 ylo yhi 
+0.0 0.0 zlo zhi 
+
+Masses
+
+1 15.035 
+2 13.018999999999998 
+3 15.999 
+
+Pair Coeffs
+
+1 0.8148173365790176 3.75 
+2 0.448980981380275 3.52 
+3 0.6568425468341059 3.05 
+
+Bond Coeffs
+
+1 -1 1.52 
+2 -1 1.217 
+
+Atoms
+
+1 1 1 -0.043 0.0 0.0 0.0 0 0 0
+2 1 2 0.525 1.3704 -0.6041 0.0 0 0 0
+3 1 3 -0.482 2.4017 0.0597 0.0 0 0 0
+
+Bonds
+
+1 1 1 2
+2 2 2 3

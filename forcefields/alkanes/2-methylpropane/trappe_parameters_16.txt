@@ -1,0 +1,17 @@
+2-methylpropane
+
+#,(pseudo)atom,type,"epsilon/kB [K]","sigma [Ang.]","charge [e]"
+1,CH3,[CH3]-CHx,98,3.75,0.0
+2,CH,(CHx)2-[CH]-CHx,10,4.68,0.0
+3,CH3,[CH3]-CHx,98,3.75,0.0
+4,CH3,[CH3]-CHx,98,3.75,0.0
+
+#,stretch,type,"length [Ang.]"
+1,"'1 - 2'",CHx-CHy,1.54
+2,"'2 - 3'",CHx-CHy,1.54
+3,"'2 - 4'",CHx-CHy,1.54
+
+#,bend,type,"theta [degrees]","k_theta/kB [K/rad^2]"
+1,"'1 - 2 - 3'",CHx-(CH)-CHy,112,62500
+2,"'1 - 2 - 4'",CHx-(CH)-CHy,112,62500
+3,"'3 - 2 - 4'",CHx-(CH)-CHy,112,62500

@@ -1,0 +1,37 @@
+# FEASST data file 
+# perfluoroethane 
+# trappe_parameters_73.txt 
+# FC(F)(F)C(F)(F)F 
+
+2 atoms 
+1 bonds 
+
+2 atom types 
+1 bond types 
+
+-1.4974 0.0 xlo xhi 
+0.0 0.0001 ylo yhi 
+0.0 0.0 zlo zhi 
+
+Masses
+
+1 69.006209489 
+1 69.006209489 
+
+Pair Coeffs
+
+1 0.7233582477793319 4.360 
+2 0.7233582477793319 4.360 
+
+Bond Coeffs
+
+1 -1 1.54 
+
+Atoms
+
+1 1 1 0.000 0.0 0.0 0.0 0 0 0
+1 1 1 0.000 -1.4974 0.0001 0.0 0 0 0
+
+Bonds
+
+1 1 1 2

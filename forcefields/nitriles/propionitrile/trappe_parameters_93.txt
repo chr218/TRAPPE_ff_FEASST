@@ -1,0 +1,16 @@
+propionitrile
+
+#,(pseudo)atom,type,"epsilon/kB [K]","sigma [Ang.]","charge [e]"
+1,CH3,[CH3]-CHx,98,3.75,0.0
+2,CH2,CHx-[CH2]-C#N,46.0,3.950,0.269
+3,C,CHx-[C]#N,60.0,3.550,0.129
+4,N,CHx-C#[N],60.0,2.950,-0.398
+
+#,stretch,type,"length [Ang.]"
+1,"'1 - 2'",CHx-CHy,1.54
+2,"'2 - 3'",CHx-CHy,1.54
+3,"'3 - 4'",C#N,1.1570
+
+#,bend,type,"theta [degrees]","k_theta/kB [K/rad^2]"
+1,"'1 - 2 - 3'",CHx-(CH2)-CHy,114,62500
+2,"'2 - 3 - 4'",CHx-(C)#N,180.00,0

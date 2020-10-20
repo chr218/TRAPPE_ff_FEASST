@@ -1,0 +1,19 @@
+cis-2-butene
+
+#,(pseudo)atom,type,"epsilon/kB [K]","sigma [Ang.]","charge [e]"
+1,CH3,[CH3]-CHx,98,3.75,0.0
+2,CH,CHx=[CH](sp2)-CHy(sp3),47.0,3.73,0.0
+3,CH,CHx=[CH](sp2)-CHy(sp3),47.0,3.73,0.0
+4,CH3,[CH3]-CHx,98,3.75,0.0
+
+#,stretch,type,"length [Ang.]"
+1,"'1 - 2'",CHx-CHy,1.54
+2,"'2 - 3'",CHx=CHy,1.33
+3,"'3 - 4'",CHx-CHy,1.54
+
+#,bend,type,"theta [degrees]","k_theta/kB [K/rad^2]"
+1,"'1 - 2 - 3'",CHx=(CH)-CHx,119.70,70420
+2,"'2 - 3 - 4'",CHx=(CH)-CHx,119.70,70420
+
+#,torsion,type,"psi0 [degrees]","d0/kB [K/rad^2]"
+1,"'1 - 2 - 3 - 4'",<em>cis</em>-CHx-(CH)=(CH)-CHy,180.0,24800.0

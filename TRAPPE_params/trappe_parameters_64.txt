@@ -1,0 +1,33 @@
+benzene
+
+#,(pseudo)atom,type,"epsilon/kB [K]","sigma [Ang.]","charge [e]"
+1,CH,CH+[CH]+CH,50.5,3.695,0.0
+2,CH,CH+[CH]+CH,50.5,3.695,0.0
+3,CH,CH+[CH]+CH,50.5,3.695,0.0
+4,CH,CH+[CH]+CH,50.5,3.695,0.0
+5,CH,CH+[CH]+CH,50.5,3.695,0.0
+6,CH,CH+[CH]+CH,50.5,3.695,0.0
+
+#,stretch,type,"length [Ang.]"
+1,"'1 - 2'",CHx+CHy,1.40
+2,"'2 - 3'",CHx+CHy,1.40
+3,"'3 - 4'",CHx+CHy,1.40
+4,"'4 - 5'",CHx+CHy,1.40
+5,"'5 - 6'",CHx+CHy,1.40
+6,"'6 - 1'",CHx+CHy,1.40
+
+#,bend,type,"theta [degrees]","k_theta/kB [K/rad^2]"
+1,"'1 - 2 - 3'",CHx+(CHy)+CHz,120.00,0
+2,"'2 - 3 - 4'",CHx+(CHy)+CHz,120.00,0
+3,"'3 - 4 - 5'",CHx+(CHy)+CHz,120.00,0
+4,"'4 - 5 - 6'",CHx+(CHy)+CHz,120.00,0
+5,"'5 - 6 - 1'",CHx+(CHy)+CHz,120.00,0
+6,"'6 - 1 - 2'",CHx+(CHy)+CHz,120.00,0
+
+#,torsion,type,"e0/kB [K]","e1/kB [degrees]"
+1,"'1 - 2 - 3 - 4'",CHx+(CH)+(CH)+CHy,0.0,0.0
+2,"'2 - 3 - 4 - 5'",CHx+(CH)+(CH)+CHy,0.0,0.0
+3,"'3 - 4 - 5 - 6'",CHx+(CH)+(CH)+CHy,0.0,0.0
+4,"'4 - 5 - 6 - 1'",CHx+(CH)+(CH)+CHy,0.0,0.0
+5,"'5 - 6 - 1 - 2'",CHx+(CH)+(CH)+CHy,0.0,0.0
+6,"'6 - 1 - 2 - 3'",CHx+(CH)+(CH)+CHy,0.0,0.0

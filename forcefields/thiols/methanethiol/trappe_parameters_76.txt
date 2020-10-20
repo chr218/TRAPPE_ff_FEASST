@@ -1,0 +1,13 @@
+methanethiol
+
+#,(pseudo)atom,type,"epsilon/kB [K]","sigma [Ang.]","charge [e]"
+1,CH3,[CH3]-SH,98.0,3.750,0.171
+2,S,CHx-[S]-H,232.0,3.620,-0.377
+3,H,S-[H],0.0,0.000,0.206
+
+#,stretch,type,"length [Ang.]"
+1,"'1 - 2'",CHx-S,1.8200
+2,"'2 - 3'",S-H,1.34
+
+#,bend,type,"theta [degrees]","k_theta/kB [K/rad^2]"
+1,"'1 - 2 - 3'",CHx-(S)-H,96.00,33830

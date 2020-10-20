@@ -1,0 +1,13 @@
+"dimethyl sulfide"
+
+#,(pseudo)atom,type,"epsilon/kB [K]","sigma [Ang.]","charge [e]"
+1,S,CHx-[S]-CHx,199.0,3.580,-0.300
+2,CH3,[CH3]-S-CHx,98.0,3.750,0.150
+3,CH3,[CH3]-S-CHx,98.0,3.750,0.150
+
+#,stretch,type,"length [Ang.]"
+1,"'1 - 2'",CHx-S,1.8200
+2,"'1 - 3'",CHx-S,1.8200
+
+#,bend,type,"theta [degrees]","k_theta/kB [K/rad^2]"
+1,"'2 - 1 - 3'",CHx-(S)-CHy,99.00,45550

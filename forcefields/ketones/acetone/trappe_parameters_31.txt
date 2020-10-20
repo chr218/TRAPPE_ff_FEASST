@@ -1,0 +1,17 @@
+acetone
+
+#,(pseudo)atom,type,"epsilon/kB [K]","sigma [Ang.]","charge [e]"
+1,CH3,[CH3]-CHx,98,3.75,0.0
+2,C,[C]=O,40.0,3.82,0.424
+3,CH3,[CH3]-CHx,98,3.75,0.0
+4,O,C=[O],79.0,3.05,-0.424
+
+#,stretch,type,"length [Ang.]"
+1,"'1 - 2'",CHx-(CHy=O),1.52
+2,"'2 - 3'",CHx-(CHy=O),1.52
+3,"'2 - 4'",C=O,1.229
+
+#,bend,type,"theta [degrees]","k_theta/kB [K/rad^2]"
+1,"'1 - 2 - 3'",CHx-(C)[=O]-CHy,117.20,62500
+2,"'1 - 2 - 4'",CHx-(CHy)=O,121.40,62500
+3,"'3 - 2 - 4'",CHx-(CHy)=O,121.40,62500

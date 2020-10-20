@@ -1,0 +1,19 @@
+"ethyl methyl ether"
+
+#,(pseudo)atom,type,"epsilon/kB [K]","sigma [Ang.]","charge [e]"
+1,CH3,[CH3]-CHx,98,3.75,0.0
+2,CH2,CHx-[CH2]-O-CHy,46.0,3.95,0.25
+3,O,CHx-[O]-CHy,55.0,2.80,-0.500
+4,CH3,[CH3]-O-CHx,98.0,3.75,0.25
+
+#,stretch,type,"length [Ang.]"
+1,"'1 - 2'",CHx-CHy,1.54
+2,"'2 - 3'",CHx-O,1.41
+3,"'3 - 4'",CHx-O,1.41
+
+#,bend,type,"theta [degrees]","k_theta/kB [K/rad^2]"
+1,"'1 - 2 - 3'",CHx-(CHy)-O,112.00,50300
+2,"'2 - 3 - 4'",CHx-(O)-CHy,112.00,60400
+
+#,torsion,type,"c0/kB [K]","c1/kB [K]","c2/kB [K]","c3/kB [K]"
+1,"'1 - 2 - 3 - 4'",CHx-(CH2)-(O)-CHy,0.00,725.35,-163.75,558.20

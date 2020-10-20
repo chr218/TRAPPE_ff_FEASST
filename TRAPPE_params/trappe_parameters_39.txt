@@ -1,0 +1,13 @@
+acetaldehyde
+
+#,(pseudo)atom,type,"epsilon/kB [K]","sigma [Ang.]","charge [e]"
+1,CH3,[CH3]-CH=O,98.0,3.75,-0.043
+2,CH,CHx-[CH]=O,54.0,3.52,0.525
+3,O,CH=[O],79.0,3.05,-0.482
+
+#,stretch,type,"length [Ang.]"
+1,"'1 - 2'",CHx-(CHy=O),1.52
+2,"'2 - 3'",CH=O,1.217
+
+#,bend,type,"theta [degrees]","k_theta/kB [K/rad^2]"
+1,"'1 - 2 - 3'",CHx-(CHy)=O,121.40,62500

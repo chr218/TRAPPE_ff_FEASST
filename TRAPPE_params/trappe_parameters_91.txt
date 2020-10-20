@@ -1,0 +1,13 @@
+acetonitrile
+
+#,(pseudo)atom,type,"epsilon/kB [K]","sigma [Ang.]","charge [e]"
+1,CH3,[CH3]-C#N,98.0,3.750,0.269
+2,C,CHx-[C]#N,60.0,3.550,0.129
+3,N,CHx-C#[N],60.0,2.950,-0.398
+
+#,stretch,type,"length [Ang.]"
+1,"'1 - 2'",CHx-CHy,1.54
+2,"'2 - 3'",C#N,1.1570
+
+#,bend,type,"theta [degrees]","k_theta/kB [K/rad^2]"
+1,"'1 - 2 - 3'",CHx-(C)#N,180.00,0

@@ -1,0 +1,19 @@
+"dimethyl disulfide"
+
+#,(pseudo)atom,type,"epsilon/kB [K]","sigma [Ang.]","charge [e]"
+1,S,CHx-[S]-S-CHx,165.0,3.720,-0.177
+2,S,CHx-[S]-S-CHx,165.0,3.720,-0.177
+3,CH3,[CH3]-S-S-CHx,98.0,3.750,0.177
+4,CH3,[CH3]-S-S-CHx,98.0,3.750,0.177
+
+#,stretch,type,"length [Ang.]"
+1,"'1 - 2'",S-S,2.0400
+2,"'1 - 4'",CHx-S,1.8200
+3,"'2 - 3'",CHx-S,1.8200
+
+#,bend,type,"theta [degrees]","k_theta/kB [K/rad^2]"
+1,"'1 - 2 - 3'",CHx-(S)-S,103.00,45550
+2,"'2 - 1 - 4'",CHx-(S)-S,103.00,45550
+
+#,torsion,type,"c0/kB [K]","c1/kB [K]","c2/kB [K]","c3/kB [K]"
+1,"'3 - 2 - 1 - 4'",CHx-(S)-(S)-CHy,1763.90,398.00,-2181.60,505.25

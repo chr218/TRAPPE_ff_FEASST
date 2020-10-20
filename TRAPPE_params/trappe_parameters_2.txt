@@ -1,0 +1,11 @@
+ethane
+
+#,(pseudo)atom,type,"epsilon/kB [K]","sigma [Ang.]","charge [e]"
+1,CH3,[CH3]-CHx,98,3.75,0.0
+2,CH3,[CH3]-CHx,98,3.75,0.0
+
+#,stretch,type,"length [Ang.]"
+1,"'1 - 2'",CHx-CHy,1.54
+
+#,bend,type,"theta [degrees]","k_theta/kB [K/rad^2]"
+,"' -  - '",,,

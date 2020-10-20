@@ -1,0 +1,13 @@
+"dimethyl ether"
+
+#,(pseudo)atom,type,"epsilon/kB [K]","sigma [Ang.]","charge [e]"
+1,CH3,[CH3]-O-CHx,98.0,3.75,0.25
+2,O,CHx-[O]-CHy,55.0,2.80,-0.500
+3,CH3,[CH3]-O-CHx,98.0,3.75,0.25
+
+#,stretch,type,"length [Ang.]"
+1,"'1 - 2'",CHx-O,1.41
+2,"'2 - 3'",CHx-O,1.41
+
+#,bend,type,"theta [degrees]","k_theta/kB [K/rad^2]"
+1,"'1 - 2 - 3'",CHx-(O)-CHy,112.00,60400

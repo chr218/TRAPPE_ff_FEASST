@@ -1,0 +1,10 @@
+
+
+#,(pseudo)atom,type,"epsilon/kB [K]","sigma [Ang.]","charge [e]"
+,,,,,
+
+#,stretch,type,"length [Ang.]"
+,"' - '",,
+
+#,bend,type,"theta [degrees]","k_theta/kB [K/rad^2]"
+,"' -  - '",,,

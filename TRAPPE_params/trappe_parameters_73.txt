@@ -1,0 +1,11 @@
+perfluoroethane
+
+#,(pseudo)atom,type,"epsilon/kB [K]","sigma [Ang.]","charge [e]"
+1,CF3,[CF3]-CFx,87.0,4.360,0.000
+2,CF3,[CF3]-CFx,87.0,4.360,0.000
+
+#,stretch,type,"length [Ang.]"
+1,"'1 - 2'",CFx-CFy,1.54
+
+#,bend,type,"theta [degrees]","k_theta/kB [K/rad^2]"
+,"' -  - '",,,

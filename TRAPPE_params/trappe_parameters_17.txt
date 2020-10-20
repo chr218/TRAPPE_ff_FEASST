@@ -1,0 +1,22 @@
+"2,2-dimethylpropane"
+
+#,(pseudo)atom,type,"epsilon/kB [K]","sigma [Ang.]","charge [e]"
+1,CH3,[CH3]-CHx,98,3.75,0.0
+2,C,(CHx)3-[C]-CHx,0.5,6.4,0.0
+3,CH3,[CH3]-CHx,98,3.75,0.0
+4,CH3,[CH3]-CHx,98,3.75,0.0
+5,CH3,[CH3]-CHx,98,3.75,0.0
+
+#,stretch,type,"length [Ang.]"
+1,"'1 - 2'",CHx-CHy,1.54
+2,"'2 - 3'",CHx-CHy,1.54
+3,"'2 - 4'",CHx-CHy,1.54
+4,"'2 - 5'",CHx-CHy,1.54
+
+#,bend,type,"theta [degrees]","k_theta/kB [K/rad^2]"
+1,"'1 - 2 - 3'",CHx-(C)-CHy,109.47,62500
+2,"'1 - 2 - 4'",CHx-(C)-CHy,109.47,62500
+3,"'1 - 2 - 5'",CHx-(C)-CHy,109.47,62500
+4,"'3 - 2 - 4'",CHx-(C)-CHy,109.47,62500
+5,"'3 - 2 - 5'",CHx-(C)-CHy,109.47,62500
+6,"'4 - 2 - 5'",CHx-(C)-CHy,109.47,62500
