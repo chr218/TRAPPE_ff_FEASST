@@ -1,0 +1,22 @@
+# LAMMPS data file 
+# ['methane'] 
+ 
+1 atoms 
+1 atom types 
+-0.02125 1.97875 xlo xhi 
+-1.07244 0.92756 ylo yhi 
+-1.06558 0.93442 zlo zhi 
+
+Masses
+
+1 16.04206
+
+
+Pair Coeffs
+
+1 1.23054006828 3.73 
+
+
+Atoms
+
+1 1 1 0.000 0.0 0.0 0.0 0 0 0
